@@ -1,0 +1,17 @@
+{
+  "name": "onpy",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "mongoose": "^5.9.18"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
