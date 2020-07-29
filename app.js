@@ -48,7 +48,7 @@ client.on("message", (message) => {
             message.member.roles.add(role);
         }
 
-        if (work === "programador") {
+        if (work === "programador" ) {
             let role = message.guild.roles.cache.find(r => r.name === "_programador");
             message.member.roles.add(role);
         }
@@ -88,7 +88,7 @@ client.on("message", (message) => {
                     .then(message => setTimeout(() => message.delete(), 2000))
             })
     }
-
+    
 });
 
 client.login(config.token);
