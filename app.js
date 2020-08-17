@@ -48,6 +48,11 @@ client.on("message", (message) => {
             message.member.roles.add(role);
         }
 
+        if (sex === "binario") {
+            let role = message.guild.roles.cache.find(r => r.name === "_binario");
+            message.member.roles.add(role);
+        }
+
         if (work === "programador" ) {
             let role = message.guild.roles.cache.find(r => r.name === "_programador");
             message.member.roles.add(role);
